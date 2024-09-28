@@ -31,6 +31,21 @@ function executarCodigo(){
       else {
         console.log("Reprovado!");
     }
+    //Vetores
+    const vet = [7,3,4,9,11];
+    const valorPos3 = vet[2];
+    console.log(valorPos3);
+    const letras = ["A","B","C", "D"];
+    for (let i=0;i<letras.length;i++){
+        const letra=letras[i];
+        //console.log(letra);
+    }
+    for(index in letras){
+        console.log(index);
+    }
+    for(letra of letras){
+        console.log(letra);
+    }
 }
 
 
